@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1%;
+    padding: 1%;
+    font-size: 1.25em;
+}
+
+header {
+    padding: 1%;
+    text-align: center;
+
+    background: #2cb42c url("../images/flywheel.jpg") top left/cover no-repeat;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1{
+    color: #fff;
+    font-size: 2.35em;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 2%;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, .5);
+    margin: 1% 2%;
+    text-decoration: none;
+}
+
+aside {
+    padding: 15px;
+}
+
+a:last-child img {
+    margin-bottom: 100%;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 25px auto;
+    border: 1px solid #000000;    
+}
+
+.active {
+    color: #388138;
+    background-color: #fff;
+}
+
+.left, .right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left {
+    background-color: #b0b9ad;
+    width: 21%;
+}
+
+.right {
+    width: 78%;
+}
+
+
+/* Table Styling  */
+
+table {
+    font-size: 1.1em;
+    width: 90%;
+    line-height: 1.1em;
+    margin: 0 auto;
+    border-spacing: 3px;
+}
+    
+th{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #078107;
+    border-bottom: 3px solid #4c694e;
+    text-shadow: 2px 2px 5px #fff;
+    font-variant: small-caps;
+
+    background-color: #078107;
+    background: -webkit-linear-gradient(#b0b9ad, #4a9e4a);
+    background: -moz-linear-gradient(#b0b9ad, #4a9e4a);
+    background: -o-linear-gradient(#b0b9ad, #4a9e4a);
+    background: linear-gradient(#b0b9ad, #4a9e4a);
+}
+
+tr th:first-child,
+tr td:first-child {
+    text-align: left;
+}
+
+tr :not(:first-child){
+    text-align: center;
+}
+
+tr {
+    opacity: .8;
+}
+
+tr:hover {
+    opacity: 1;
+}
+
+th, td {
+    padding: 1px 5px;
+}
+
+td {
+    color: #504b07 ;
+    border-radius: 2px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+tr:nth-child(odd) td{
+    background-color: #e1ecdd;
+}
+
+tr:nth-child(even) td{
+    background-color: #cbeec0;
+}
